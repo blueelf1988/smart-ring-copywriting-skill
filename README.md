@@ -1,9 +1,9 @@
 # Smart Ring Copywriting Skill
 
-> 智能戒指 / 健康穿戴品类的「卖点文案 Guideline + 速评卡」，打包成一个 Claude Skill。
-> 让 AI 按同一套标准写标题、打分、改写——不用每次从零调教。
+> 智能戒指 / 健康穿戴品类的「卖点文案 Guideline + 速评卡 + 改稿法则」，打包成一个 Claude Skill。
+> 让 AI 按同一套标准写标题、打分、改稿——不用每次从零调教。
 
-![version](https://img.shields.io/badge/version-0.1.0-blue)
+![version](https://img.shields.io/badge/version-0.2.0-blue)
 ![platform](https://img.shields.io/badge/Claude-Skill-8A5CF6)
 ![category](https://img.shields.io/badge/category-smart%20ring%20%2F%20wearable-teal)
 
@@ -69,10 +69,11 @@
 
 ```
 smart-ring-copywriting-skill/
-├── SKILL.md                          # 技能主文件：角色、三种工作模式、核心规则、评分流程
+├── SKILL.md                          # 技能主文件：角色、四种工作模式、核心规则、评分流程
 ├── references/
 │   ├── guideline.md                  # Guideline 全文：完整禁用表 / 慎用表 / 词汇分级 / 翻译公式
 │   ├── scoring-card.md               # 速评卡全文：校准示例、完整诊断示例、发稿前自检
+│   ├── revision-playbook.md          # 改稿法则：10 条修改动作 + 改稿顺序 + 正文审稿三问
 │   └── brand-profile-template.md     # 品牌档案模板：数据口径表 / 差异化支点 / 视频镜头表
 ├── CHANGELOG.md
 └── README.md
@@ -143,6 +144,15 @@ git clone https://github.com/blueelf1988/smart-ring-copywriting-skill.git \
 最后列出最该优先改的 3 条：[粘贴表格]
 ```
 
+### 改：审稿改稿（0.2.0 新增）
+
+```
+按改稿法则审这篇产品页文案，输出修改清单（原句→改后→法则→原因）+ 改后全文：
+[粘贴文案]
+```
+
+改稿法则归纳自专业文案对真实产品页的 50 余处校正，核心是把改稿当成质检而不是润色，顺序固定：**事实 → 术语 → 动词 → 句法 → 节奏**。十条动作包括：宣称对事实（removes sizing risk → adjusts within the selected size range）、术语治理（Everyday Recovery → Daily Recovery）、动词治理（Explore → Understand）、名词化拆解（a fresh size check → checking the fit again）、句法衔接（with steady breathing → and breathing remains steady）、冗余内消、数字前置、因果校对、合规语气、标题命名。完整对照表见 `references/revision-playbook.md`。
+
 ### 打分档位
 
 | 得分 | 处理 |
@@ -180,7 +190,9 @@ git clone https://github.com/blueelf1988/smart-ring-copywriting-skill.git \
 
 ## 版本
 
-当前 0.1.0（2026-11-04）。版本号规则 `0.MINOR.PATCH`，每次更新同步写 [CHANGELOG.md](CHANGELOG.md)。
+当前 0.2.0（2026-11-04）。版本号规则 `0.MINOR.PATCH`，每次更新同步写 [CHANGELOG.md](CHANGELOG.md)。
+
+0.2.0 新增 `revision-playbook.md`（改稿法则）与工作模式 D；0.1.0 为首版（Guideline + 速评卡）。
 
 ## 作者
 
