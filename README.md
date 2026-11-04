@@ -87,7 +87,7 @@ SKILL.md 是速查和操作流程；写文案或打分需要查完整表时，�
 把仓库克隆到个人 skills 目录：
 
 ```bash
-git clone https://github.com/<your-account>/smart-ring-copywriting-skill.git \
+git clone https://github.com/blueelf1988/smart-ring-copywriting-skill.git \
   ~/.claude/skills/smart-ring-copywriting
 ```
 
