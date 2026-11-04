@@ -3,7 +3,7 @@
 > 智能戒指 / 健康穿戴品类的「卖点文案 Guideline + 速评卡 + 改稿法则」，打包成一个 Claude Skill。
 > 让 AI 按同一套标准写标题、打分、改稿——不用每次从零调教。
 
-![version](https://img.shields.io/badge/version-0.2.0-blue)
+![version](https://img.shields.io/badge/version-0.3.0-blue)
 ![platform](https://img.shields.io/badge/Claude-Skill-8A5CF6)
 ![category](https://img.shields.io/badge/category-smart%20ring%20%2F%20wearable-teal)
 
@@ -74,6 +74,7 @@ smart-ring-copywriting-skill/
 │   ├── guideline.md                  # Guideline 全文：完整禁用表 / 慎用表 / 词汇分级 / 翻译公式
 │   ├── scoring-card.md               # 速评卡全文：校准示例、完整诊断示例、发稿前自检
 │   ├── revision-playbook.md          # 改稿法则：10 条修改动作 + 改稿顺序 + 正文审稿三问
+│   ├── brand-circul-3.md             # CIRCUL 3 品牌事实标尺：参数 / 术语表 / 已批准标准句 / 红线
 │   └── brand-profile-template.md     # 品牌档案模板：数据口径表 / 差异化支点 / 视频镜头表
 ├── CHANGELOG.md
 └── README.md
@@ -190,9 +191,9 @@ git clone https://github.com/blueelf1988/smart-ring-copywriting-skill.git \
 
 ## 版本
 
-当前 0.2.0（2026-11-04）。版本号规则 `0.MINOR.PATCH`，每次更新同步写 [CHANGELOG.md](CHANGELOG.md)。
+当前 0.3.0（2026-11-04）。版本号规则 `0.MINOR.PATCH`，每次更新同步写 [CHANGELOG.md](CHANGELOG.md)。
 
-0.2.0 新增 `revision-playbook.md`（改稿法则）与工作模式 D；0.1.0 为首版（Guideline + 速评卡）。
+0.3.0 新增 `brand-circul-3.md`（CIRCUL 3 品牌事实标尺，含 10 ATM 口径）；0.2.0 新增改稿法则（`revision-playbook.md`）；0.1.0 为首版（Guideline + 速评卡）。
 
 ## 作者
 

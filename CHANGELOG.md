@@ -2,6 +2,18 @@
 
 所有时间均为 Asia/Shanghai。版本号遵循 `0.MINOR.PATCH`，每次重打 skill 包必须同步更新本文件、`SKILL.md` 头部版本号和 `README.md` 徽章。
 
+## [0.3.0] — 2026-11-04
+
+### Added
+
+- `references/brand-circul-3.md`：CIRCUL 3 品牌事实标尺——产品事实表（厚度 / 材质 / 尺码 / 续航 / 防水 / 传感器）、术语表（对内→对外）、已批准标准表述（Fit / Brief / 功能句）、本品类写作红线、待确认清单
+- 数据口径更新：防水统一为 **10 ATM**（2026-11-04 品牌确认）；续航 8.5 天、指标数 20+/30+ 仍标待确认
+- `SKILL.md` 第 12 节：品牌事实引用 CIRCUL 3 现成档案
+
+### Changed
+
+- README 同步 0.3.0；仓库结构增加 brand-circul-3.md
+
 ## [0.2.0] — 2026-11-04
 
 ### Added
